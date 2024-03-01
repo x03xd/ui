@@ -6,5 +6,3 @@ COPY package*.json /app
 RUN npm install
 
 COPY . .
-
-RUN chmod +x /app/public/env_vars.sh
